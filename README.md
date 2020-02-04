@@ -2,12 +2,20 @@
 This is a webApp that shows the battery consumption details based on the JSON response from the server.
 
 
-Steps to run the webapp:
+## Steps to run the webapp:
 1- Clone the repositiory.
+
 2- In a new terminal traverse to "server" folder and run "npm run json:server".
-3- Open another new terminal, and traverse to "dasboard" folder. Run the command
-  i) ng serve --open to run the webapp in browser at port 4200.
-  ii) npm run test to run the unit tests.
+
+3- Open another new terminal, and traverse to "dasboard" folder.
+
+  i) Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  
+  ii) Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 
 Scope and improvements
