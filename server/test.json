@@ -1,0 +1,32 @@
+{
+    "deviceData" : [
+                    {
+                        "academyId": 30006,
+                        "batteryLevel": 1,
+                        "employeeId": "T1007384",
+                        "serialNumber": "1805C67HD02259",
+                        "timestamp": "2019-05-17T09:00:00.000+01:00"
+                    },
+                    {
+                        "academyId": 30006,
+                        "batteryLevel": 0.9000000000,
+                        "employeeId": "T1001417",
+                        "serialNumber": "1805C67HD02259",
+                        "timestamp": "2019-05-17T21:00:00.000+01:00"
+                    },
+                    {
+                        "academyId": 30006,
+                        "batteryLevel": 0.80000000000,
+                        "employeeId": "T1008250",
+                        "serialNumber": "1805C67HD02259",
+                        "timestamp": "2019-05-18T21:00:00.000+01:00"
+                    },
+                    {
+                        "academyId": 30006,
+                        "batteryLevel": 1,
+                        "employeeId": "T1001417",
+                        "serialNumber": "1805C67HD02259",
+                        "timestamp": "2019-05-18T22:00:00.00+01:00"
+                    }
+                ]
+            }

@@ -1,0 +1,45 @@
+<div class="bs-example container" data-example-id="striped-table">
+  <table class="table table-striped table-bordered table-hover">
+    <caption>Schools with the number of battery issue devices.</caption>
+    <thead>
+      <tr>
+        <th>S.no</th>
+        <th>School Name</th>
+        <th>No. of devices with Battery issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let key of schools; index as i">
+        <th scope="row">{{i+1}}</th>
+        <td>{{key}} </td>
+        <td>{{schoolData[key].devicesWithIssues}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+<div class="bs-example container" data-example-id="striped-table">
+  <table class="table table-striped table-bordered table-hover">
+    <caption>Unhealthy devices in each school</caption>
+    <thead>
+      <tr>
+        <th>S.no</th>
+        <th>School Name</th>
+        <th>No. of devices with Battery issues</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let key of devices; index as i">
+        <th scope="row">{{i+1}}</th>
+        <td>{{key.name[0].schoolName}} </td>
+        <td>
+          <ul *ngFor="let device of key.name; index as j">
+            <li>{{device.serialNumber}}</li>
+          </ul>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
