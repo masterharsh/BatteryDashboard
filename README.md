@@ -18,7 +18,10 @@ This is a webApp that shows the battery consumption details based on the JSON re
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 
-Scope and improvements
+## Scope and improvements
+
 As per the time constraint, there were few thing which could be implemented but have been ignored.
+
 1- We could use a charting library like (Charts.js, amcharts, highcharts) to make the dashboard more intuitive.
+
 2- Unit tests can be added for more scenarios and test cases.
